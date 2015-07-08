@@ -79,8 +79,9 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     PhaseBeam
 
-# AudioFX
+# Eleven
 PRODUCT_PACKAGES += \
+    Eleven \
     AudioFX
 
 # CM Hardware Abstraction Framework
@@ -94,9 +95,9 @@ PRODUCT_PACKAGES += \
     SlimLauncher \
     LatinIME \
     BluetoothExt \
-    DashClock
-
-#    SlimFileManager removed until updated
+    DashClock \
+    OTAUpdates \
+    KernelAdiutor
 
 # Extra tools
 PRODUCT_PACKAGES += \
