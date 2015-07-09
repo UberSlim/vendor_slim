@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 if [ ! "$BUILD_WITH_COLORS" = "0" ]; then
     red=$(tput setaf 1)             #  red
