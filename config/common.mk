@@ -97,7 +97,10 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     DashClock \
     OTAUpdates \
-    KernelAdiutor
+    KernelAdiutor \
+    F-Droid \
+    SoundRecorder \
+    CMFileManager
 
 # Extra tools
 PRODUCT_PACKAGES += \
