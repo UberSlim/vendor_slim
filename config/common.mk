@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     DashClock \
     OTAUpdates \
     KernelAdiutor \
-    F-Droid \
     SoundRecorder \
     CMFileManager
 
