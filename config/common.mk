@@ -98,8 +98,7 @@ PRODUCT_PACKAGES += \
     DashClock \
     OTAUpdates \
     KernelAdiutor \
-    SoundRecorder \
-    CMFileManager
+    SoundRecorder
 
 # Extra tools
 PRODUCT_PACKAGES += \
