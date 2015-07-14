@@ -65,6 +65,11 @@ PRODUCT_COPY_FILES += \
 # Embed SuperUser
 SUPERUSER_EMBEDDED := true
 
+# UberSlim Prebuilts
+PRODUCT_COPY_FILES += \
+    vendor/slim/prebuilt/common/FXExplorer.apk:system/app/FXExplorer/FXExplorer.apk \
+    vendor/slim/prebuilt/common/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk
+
 # Required packages
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
@@ -97,7 +102,6 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     DashClock \
     OTAUpdates \
-    KernelAdiutor \
     SoundRecorder
 
 # Extra tools
