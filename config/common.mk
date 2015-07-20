@@ -68,6 +68,7 @@ SUPERUSER_EMBEDDED := true
 # UberSlim Prebuilts
 PRODUCT_COPY_FILES += \
     vendor/slim/prebuilt/common/FXExplorer.apk:system/app/FXExplorer/FXExplorer.apk \
+    vendor/slim/prebuilt/common/OpenCamera.apk:system/app/OpenCamera/OpenCamera.apk \
     vendor/slim/prebuilt/common/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk \
     vendor/slim/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/slim/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
