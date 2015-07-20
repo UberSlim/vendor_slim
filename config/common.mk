@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     DashClock \
     OTAUpdates \
-    SoundRecorder
+    SoundRecorder \
+    WallpaperPicker
 
 # Extra tools
 PRODUCT_PACKAGES += \
