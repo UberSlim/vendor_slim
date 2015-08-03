@@ -121,10 +121,13 @@ PRODUCT_PACKAGES += \
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
-    libstagefright_soft_ffmpegadec \
-    libstagefright_soft_ffmpegvdec \
-    libFFmpegExtractor \
+    libffmpeg_extractor \
+    libffmpeg_omx \
     media_codecs_ffmpeg.xml
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.sf.omx-plugin=libffmpeg_omx.so \
+    media.sf.extractor-plugin=libffmpeg_extractor.so
 
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
@@ -172,7 +175,7 @@ endif
 # SlimLP first version.
 PRODUCT_VERSION_MAJOR = 5.1.1
 PRODUCT_VERSION_MINOR = beta
-PRODUCT_VERSION_MAINTENANCE = 0.2
+PRODUCT_VERSION_MAINTENANCE = 0.3
 ifdef SLIM_BUILD_EXTRA
     SLIM_POSTFIX := -$(SLIM_BUILD_EXTRA)
 endif
